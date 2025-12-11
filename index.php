@@ -80,22 +80,40 @@ $is_admin = isset($_SESSION['admin_id']);
 
     <?php if ($page == 'accueil'): ?>
         <div class="hero">
-            <h1>SOLUTIONS INFORMATIQUES PROFESSIONNELLES</h1>
-            <p>Équipements haute performance pour entreprises exigeantes</p>
+            <h1>TECHSOLUTIONS - SERVICES INFORMATIQUES</h1>
+            <p>Votre partenaire pour la modernisation de votre système d'information</p>
         </div>
         <div class="container">
+            <h2 style="margin-bottom: 30px; color: #1a1a1a; font-size: 28px; font-weight: 300; letter-spacing: 1px; text-transform: uppercase;">Qui sommes-nous ?</h2>
+            <div style="background: white; padding: 40px; margin-bottom: 40px; border-radius: 2px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #0066cc;">
+                <p style="color: #666; line-height: 1.8; margin-bottom: 20px;">TechSolutions est une entreprise de services informatiques basée à Brive-la-Gaillarde, organisée en plusieurs départements spécialisés pour répondre à tous vos besoins en matière de solutions informatiques.</p>
+                <p style="color: #666; line-height: 1.8;">Nous sommes fiers de notre culture inclusive, mettant un point d'honneur à accueillir et à soutenir les personnes en situation de handicap, en adaptant les postes de travail pour répondre à leurs besoins.</p>
+            </div>
+            <h2 style="margin-bottom: 30px; color: #1a1a1a; font-size: 28px; font-weight: 300; letter-spacing: 1px; text-transform: uppercase;">Nos Départements</h2>
             <div class="services">
                 <div class="service-card">
-                    <h3>Postes de Travail</h3>
-                    <p>Configurations sur mesure pour développement, design et bureautique. Matériel haute performance adapté aux besoins spécifiques de chaque métier.</p>
+                    <h3>Développement Logiciel</h3>
+                    <p>15 personnes dédiées à la création et la maintenance de logiciels sur mesure pour nos clients.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Infrastructure IT</h3>
-                    <p>Solutions complètes pour équiper vos équipes avec du matériel professionnel certifié et garanti. Accompagnement personnalisé.</p>
+                    <h3>Infrastructures Systèmes et Réseau</h3>
+                    <p>5 experts chargés de la mise en place et de l'entretien des infrastructures informatiques, incluant les réseaux et les serveurs.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Support & Maintenance</h3>
-                    <p>Service après-vente réactif, maintenance préventive et assistance technique dédiée pour garantir la continuité de votre activité.</p>
+                    <h3>Design UX/UI</h3>
+                    <p>5 designers spécialisés dans la conception d'interfaces utilisateur attrayantes et fonctionnelles.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Marketing et Vente</h3>
+                    <p>10 collaborateurs s'occupant de la stratégie commerciale, de la promotion des services et de la relation client.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Support Client</h3>
+                    <p>5 techniciens fournissant l'assistance technique et le support nécessaire à nos clients.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Ressources Humaines et Administration</h3>
+                    <p>5 personnes gérant le personnel, le recrutement et les aspects administratifs de l'entreprise.</p>
                 </div>
             </div>
         </div>
@@ -164,30 +182,33 @@ $is_admin = isset($_SESSION['admin_id']);
     <?php elseif ($page == 'services'): ?>
         <div class="container">
             <h2 style="margin-bottom: 30px; color: #1a1a1a; font-size: 28px; font-weight: 300; letter-spacing: 1px; text-transform: uppercase;">Nos Services</h2>
+            <div style="background: white; padding: 40px; margin-bottom: 40px; border-radius: 2px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #0066cc;">
+                <p style="color: #666; line-height: 1.8; margin-bottom: 20px;">TechSolutions vous accompagne dans la modernisation de votre système d'information avec des solutions complètes et sur mesure.</p>
+            </div>
             <div class="services">
                 <div class="service-card">
-                    <h3>Développement & IA</h3>
-                    <p>Stations haute performance avec processeurs AMD Ryzen 7, RTX 4070 SUPER, 32 Go RAM DDR5. Optimisées pour le développement logiciel, data science et intelligence artificielle.</p>
+                    <h3>Infrastructure Informatique</h3>
+                    <p>Solutions complètes pour chaque poste de travail : composants PC fixes assemblés sur mesure, périphériques adaptés, logiciels professionnels, mise en réseau et cybersécurité.</p>
                 </div>
                 <div class="service-card">
-                    <h3>UX / UI Design</h3>
-                    <p>Configurations optimisées avec Intel i7, RTX 4080 SUPER, écrans 4K professionnels calibrés. Idéales pour la création graphique et le design d'interfaces.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Marketing Digital</h3>
-                    <p>Postes équilibrés pour création de contenu multimédia, montage vidéo et analyse de données marketing. Performances et fiabilité garanties.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Administration</h3>
-                    <p>Solutions bureautiques professionnelles fiables et économiques. Parfaites pour la gestion administrative, comptabilité et tâches quotidiennes.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Support Technique</h3>
-                    <p>Matériel polyvalent pour équipes IT et support. Configurations robustes permettant diagnostic, maintenance et assistance utilisateurs.</p>
+                    <h3>Développement Web</h3>
+                    <p>Conception de sites internet vitrines dynamiques avec interface administrateur pour la gestion de contenu, en conformité RGPD.</p>
                 </div>
                 <div class="service-card">
                     <h3>Accessibilité</h3>
-                    <p>Équipements spécialisés pour personnes malvoyantes. Matériel adapté avec technologies d'assistance et périphériques ergonomiques certifiés.</p>
+                    <p>Adaptation de postes de travail pour employés en situation de handicap visuel, avec équipements d'accessibilité spécialisés et périphériques ergonomiques.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Conseil et Accompagnement</h3>
+                    <p>Analyse de vos besoins, recommandations personnalisées et accompagnement dans le choix de vos solutions informatiques.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Support Technique</h3>
+                    <p>Assistance technique dédiée, maintenance préventive et support pour garantir la continuité de votre activité.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Sécurité Informatique</h3>
+                    <p>Mise en place de stratégies de cybersécurité adaptées à votre entreprise pour protéger vos données et vos systèmes.</p>
                 </div>
             </div>
         </div>
@@ -197,21 +218,21 @@ $is_admin = isset($_SESSION['admin_id']);
         // Actualités codées en dur
         $actualites = [
             [
-                'titre' => 'Nouvelle gamme de postes développement',
-                'contenu' => 'Nous sommes fiers de présenter notre nouvelle gamme de postes de travail dédiés au développement et à l\'intelligence artificielle. Équipés des derniers processeurs AMD Ryzen 7 et de cartes graphiques RTX 4070 SUPER, ces configurations offrent des performances exceptionnelles pour vos projets les plus exigeants.',
-                'auteur' => 'Admin TechSolutions',
+                'titre' => 'Modernisation de notre système d\'information',
+                'contenu' => 'TechSolutions a entrepris un projet ambitieux de modernisation de son système d\'information. Ce projet inclut le renouvellement complet de notre parc informatique avec des PC fixes assemblés sur mesure pour chaque département, adaptés aux besoins spécifiques de nos collaborateurs.',
+                'auteur' => 'Direction',
                 'date_publication' => '2025-01-15'
             ],
             [
-                'titre' => 'Partenariat avec Microsoft',
-                'contenu' => 'Nous sommes heureux d\'annoncer notre nouveau partenariat avec Microsoft, renforçant notre expertise en solutions Azure et Microsoft 365 pour mieux servir nos clients.',
-                'auteur' => 'Marketing',
+                'titre' => 'Lancement de notre nouveau site vitrine',
+                'contenu' => 'Nous sommes fiers de vous présenter notre nouveau site internet vitrine, développé en interne. Ce site dynamique permet à nos clients de découvrir nos services et de nous contacter facilement. Une interface administrateur permet la gestion du contenu en toute simplicité.',
+                'auteur' => 'Département Développement',
                 'date_publication' => '2025-01-10'
             ],
             [
-                'titre' => 'Support client renforcé',
-                'contenu' => 'Pour mieux vous servir, nous avons renforcé notre service client avec une assistance technique dédiée disponible du lundi au vendredi de 9h à 18h. N\'hésitez pas à nous contacter pour toute question.',
-                'auteur' => 'Service Client',
+                'titre' => 'Engagement pour l\'accessibilité',
+                'contenu' => 'Dans le cadre de notre culture inclusive, nous avons équipé notre département Support Client avec des postes de travail adaptés pour nos collaborateurs en situation de handicap visuel. Ces équipements spécialisés garantissent un environnement de travail accessible à tous.',
+                'auteur' => 'Ressources Humaines',
                 'date_publication' => '2025-01-05'
             ]
         ];
